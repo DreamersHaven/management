@@ -12,6 +12,7 @@ import javax.sql.DataSource;
 @Configuration
 public class ActivitiConfig {
     //流程配置，与spring整合采用SpringProcessEngineConfiguration这个实现
+	//使用GIT管理代码
     @Bean
     public ProcessEngineConfiguration processEngineConfiguration(DataSource dataSource, PlatformTransactionManager transactionManager){
         SpringProcessEngineConfiguration processEngineConfiguration = new SpringProcessEngineConfiguration();
