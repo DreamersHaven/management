@@ -8,7 +8,7 @@ import java.util.Map;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * 
+ * 空间管理DAO
  * @author dongyaxin
  * @email 1992lcg@163.com
  * @date 2018-07-09 05:57:41
